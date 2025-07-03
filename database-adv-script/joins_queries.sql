@@ -5,7 +5,7 @@ INNER JOIN "User" ON Booking.user_id = "User".user_id
 
 SELECT Property.*, Review.*
 FROM Property
-LEFT JOIN Revue ON Property.property_id = Review.property_id
+LEFT JOIN Review ON Property.property_id = Review.property_id
 
 
 SELECT "User".*, Booking.*
