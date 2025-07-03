@@ -1,9 +1,9 @@
 -- Users
-INSERT INTO User (user_id, first_name, last_name, email, password_hash, phone_number, role)
+INSERT INTO "User" (user_id, first_name, last_name, email, password_hash, phone_number, role)
 VALUES ('uuid-1', 'Alice', 'Smith', 'alice@example.com', 'hashedpassword1', '1234567890', 'guest');
-INSERT INTO User (user_id, first_name, last_name, email, password_hash, phone_number, role)
+INSERT INTO "User" (user_id, first_name, last_name, email, password_hash, phone_number, role)
 VALUES ('uuid-2', 'Bob', 'Johnson', 'bob@example.com', 'hashedpassword2', '0987654321', 'host');
-INSERT INTO User (user_id, first_name, last_name, email, password_hash, phone_number, role)
+INSERT INTO "User" (user_id, first_name, last_name, email, password_hash, phone_number, role)
 VALUES ('uuid-3', 'Carol', 'Williams', 'carol@example.com', 'hashedpassword3', '1122334455', 'guest');
 
 -- Properties
